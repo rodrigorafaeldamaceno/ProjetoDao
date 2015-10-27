@@ -23,18 +23,19 @@ public class App {
         Dao dao = new PessoaDaoDB();
 
         dao.adicionar(joao);
+        //dao.remover(joao);
         dao.listar(joao);
-        System.out.println("Vamos remover");
-        dao.remover(joao);
-        dao.listar(joao);
-
-        System.out.println("\n\nOther...");
-        dao.adicionar(jose);
-        dao.listar(jose);
-        System.out.println("Vamos remover");
-
-        dao.remover(jose);
-        dao.listar(jose);
-
+//        System.out.println("Vamos remover");
+//        dao.remover(joao);
+//        dao.listar(joao);
+//
+//        System.out.println("\n\nOther...");
+//        dao.adicionar(jose);
+//        dao.listar(jose);
+//        System.out.println("Vamos remover");
+//
+//        dao.remover(jose);
+//        dao.listar(jose);
+//
     }
 }

@@ -10,6 +10,7 @@ package br.edu.utfpr.modelo;
  * @author UTFPR
  */
 public class Pessoa {
+
     private String nome;
     private String sobrenome;
     private int idade;
@@ -19,6 +20,11 @@ public class Pessoa {
         this.sobrenome = sobrenome;
         this.idade = idade;
     }
+
+    public int getIdade() {
+        return idade;
+    }
+    
 
     public String getNome() {
         return nome;
@@ -37,7 +43,4 @@ public class Pessoa {
         return "Pessoa{" + "nome=" + nome + ", sobrenome=" + sobrenome + ", idade=" + idade + '}';
     }
 
-   
-    
-    
 }

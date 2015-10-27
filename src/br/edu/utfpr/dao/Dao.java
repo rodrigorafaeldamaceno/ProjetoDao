@@ -13,7 +13,7 @@ import br.edu.utfpr.modelo.Pessoa;
  */
 public interface Dao {
     //ctrl +shift +i
-    
+
     public void adicionar(Pessoa p);
     public void remover(Pessoa p);
     public void listar(Pessoa p);
