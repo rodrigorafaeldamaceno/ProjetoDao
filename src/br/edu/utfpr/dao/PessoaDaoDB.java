@@ -63,7 +63,7 @@ public class PessoaDaoDB implements Dao {
 
     @Override
     public void listar(Pessoa p) {
-        String instrucao = "SELECT 'FROM PESSOA'";
+        String instrucao = "SELECT * FROM PESSOA";
 
         try {
             //vou executar e armazenar o resultado
